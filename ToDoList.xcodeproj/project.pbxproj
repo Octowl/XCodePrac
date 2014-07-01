@@ -19,6 +19,7 @@
 		8F095D931961AF8D00F54A40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F095D7B1961AF8D00F54A40 /* UIKit.framework */; };
 		8F095D9B1961AF8D00F54A40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F095D991961AF8D00F54A40 /* InfoPlist.strings */; };
 		8F095D9D1961AF8D00F54A40 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F095D9C1961AF8D00F54A40 /* ToDoListTests.m */; };
+		8FADE28A1962949100D76950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FADE2891962949100D76950 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8F095D981961AF8D00F54A40 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		8F095D9A1961AF8D00F54A40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F095D9C1961AF8D00F54A40 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		8FADE2891962949100D76950 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				8F095D861961AF8D00F54A40 /* AppDelegate.h */,
+				8FADE2891962949100D76950 /* Main.storyboard */,
 				8F095D871961AF8D00F54A40 /* AppDelegate.m */,
 				8F095D891961AF8D00F54A40 /* Images.xcassets */,
 				8F095D7E1961AF8D00F54A40 /* Supporting Files */,
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FADE28A1962949100D76950 /* Main.storyboard in Resources */,
 				8F095D821961AF8D00F54A40 /* InfoPlist.strings in Resources */,
 				8F095D8A1961AF8D00F54A40 /* Images.xcassets in Resources */,
 			);
@@ -437,6 +441,7 @@
 				8F095DA21961AF8D00F54A40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F095DA31961AF8D00F54A40 /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				8F095DA51961AF8D00F54A40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
