@@ -51,7 +51,6 @@
 		8F095D9A1961AF8D00F54A40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F095D9C1961AF8D00F54A40 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
 		8FADE2891962949100D76950 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		8FADE28E1967F30C00D76950 /* AddToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItem.h; sourceTree = "<group>"; };
 		8FADE2911967F36000D76950 /* AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemViewController.h; sourceTree = "<group>"; };
 		8FADE2921967F36000D76950 /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,7 +82,6 @@
 		8F095D6B1961AF8D00F54A40 = {
 			isa = PBXGroup;
 			children = (
-				8FADE28E1967F30C00D76950 /* AddToDoItem.h */,
 				8F095D7D1961AF8D00F54A40 /* ToDoList */,
 				8F095D961961AF8D00F54A40 /* ToDoListTests */,
 				8F095D761961AF8D00F54A40 /* Frameworks */,

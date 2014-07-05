@@ -324,10 +324,10 @@
             </objects>
             <point key="canvasLocation" x="255" y="89"/>
         </scene>
-        <!--View Controller - Add To-Do Item-->
+        <!--Add To Do Item View Controller - Add To-Do Item-->
         <scene sceneID="VFP-2M-kl5">
             <objects>
-                <viewController id="qtM-8k-hfh" sceneMemberID="viewController">
+                <viewController id="qtM-8k-hfh" customClass="AddToDoItemViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="woi-44-Fc5"/>
                         <viewControllerLayoutGuide type="bottom" id="qm1-R2-bKq"/>
