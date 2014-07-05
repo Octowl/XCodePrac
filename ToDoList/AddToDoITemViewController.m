@@ -1,18 +1,18 @@
 //
-//  AddToDoITemViewController.m
+//  AddToDoItemViewController.m
 //  ToDoList
 //
 //  Created by Aziz Alsaffar on 7/5/14.
 //  Copyright (c) 2014 Aziz Alsaffar. All rights reserved.
 //
 
-#import "AddToDoITemViewController.h"
+#import "AddToDoItemViewController.h"
 
-@interface AddToDoITemViewController ()
+@interface AddToDoItemViewController ()
 
 @end
 
-@implementation AddToDoITemViewController
+@implementation AddToDoItemViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
