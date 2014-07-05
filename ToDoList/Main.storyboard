@@ -313,7 +313,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="My To-Do List" id="k9O-mU-ZPW">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="W6y-4a-AzE"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="W6y-4a-AzE">
+                            <connections>
+                                <segue destination="qtM-8k-hfh" kind="push" id="QEi-E4-KD5"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KoV-KU-kS1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -343,9 +347,10 @@
                         <constraints>
                             <constraint firstItem="2Ab-oF-zZS" firstAttribute="leading" secondItem="5Gt-gF-lcv" secondAttribute="leading" constant="20" symbolic="YES" id="Fde-6v-bS6"/>
                             <constraint firstAttribute="trailing" secondItem="2Ab-oF-zZS" secondAttribute="trailing" constant="20" symbolic="YES" id="UcN-ls-A26"/>
-                            <constraint firstItem="2Ab-oF-zZS" firstAttribute="top" secondItem="woi-44-Fc5" secondAttribute="bottom" constant="108" id="WsR-Lv-xUy"/>
+                            <constraint firstItem="2Ab-oF-zZS" firstAttribute="top" secondItem="woi-44-Fc5" secondAttribute="bottom" constant="64" id="WsR-Lv-xUy"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="LJn-Ln-Omf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ENe-Ij-1sb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
