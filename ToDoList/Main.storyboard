@@ -315,7 +315,7 @@
                     <navigationItem key="navigationItem" title="My To-Do List" id="k9O-mU-ZPW">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="W6y-4a-AzE">
                             <connections>
-                                <segue destination="qtM-8k-hfh" kind="push" id="QEi-E4-KD5"/>
+                                <segue destination="qtM-8k-hfh" kind="modal" id="QEi-E4-KD5"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
