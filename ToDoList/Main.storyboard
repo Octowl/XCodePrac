@@ -315,7 +315,7 @@
                     <navigationItem key="navigationItem" title="My To-Do List" id="k9O-mU-ZPW">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="W6y-4a-AzE">
                             <connections>
-                                <segue destination="qtM-8k-hfh" kind="modal" id="QEi-E4-KD5"/>
+                                <segue destination="sfX-u0-ELY" kind="modal" id="QEi-E4-KD5"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -324,7 +324,7 @@
             </objects>
             <point key="canvasLocation" x="255" y="89"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Add To-Do Item-->
         <scene sceneID="VFP-2M-kl5">
             <objects>
                 <viewController id="qtM-8k-hfh" sceneMemberID="viewController">
@@ -350,11 +350,14 @@
                             <constraint firstItem="2Ab-oF-zZS" firstAttribute="top" secondItem="woi-44-Fc5" secondAttribute="bottom" constant="64" id="WsR-Lv-xUy"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="LJn-Ln-Omf"/>
+                    <navigationItem key="navigationItem" title="Add To-Do Item" id="LJn-Ln-Omf">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="gex-fp-Kas"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="xqr-i9-UPz"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ENe-Ij-1sb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="763" y="96"/>
+            <point key="canvasLocation" x="1289" y="96"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bqz-ih-iVc">
@@ -373,6 +376,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oOx-ID-1XM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-271" y="89"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7tD-is-qPP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sfX-u0-ELY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IVq-We-olm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qtM-8k-hfh" kind="relationship" relationship="rootViewController" id="hhV-qh-csS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xiu-vW-0Vl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="763" y="96"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
